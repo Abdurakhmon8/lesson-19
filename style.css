@@ -7,6 +7,9 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
+.container {
+  max-width: 100%;
+}
 header {
   width: 100%;
   display: flex;
@@ -82,6 +85,7 @@ header main button {
   line-height: 18px;
   text-transform: uppercase;
   color: #111010;
+  cursor: pointer;
 }
 header main .product__down {
   position: absolute;
@@ -98,6 +102,53 @@ header main .product__down {
 header main .product__down i {
   font-size: 40px;
 }
+
+.header-lorem-text {
+  margin-top: 152px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 83px;
+  color: #111010;
+}
+
+.top-cards{
+  width: 100%;
+  height: 751px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  background-color: #F1EBE4;
+}
+
+.card-1-h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 53px;
+  text-transform: uppercase;
+  color: #111010;
+}
+
+.card-2-h3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #111010;
+}
+
+.card-1-p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #111010;
+}
+
 @media (max-width: 447px) {
   header {
     width: 100%;
@@ -146,6 +197,50 @@ header main .product__down i {
   }
   header main .product__down i {
     font-size: 20px;
+  }
+  .header-lorem-text {
+    margin-top: 70px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    color: #111010;
+  }
+  .top-cards{
+    width: 100%;
+    height: 1330px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: #F1EBE4;
+  }
+  .card-1-h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+    text-transform: uppercase;
+    color: #111010;
+  }
+  .top-card-img{
+    width: 200px;
+    height: 270px;
+  }
+  .card-2-h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #111010;
+  }
+  .card-1-p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #111010;
   }
 }
 
@@ -199,6 +294,51 @@ header main .product__down i {
   header main .product__down i {
     font-size: 25px;
   }
+  .header-lorem-text {
+    margin-top: 102px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 37px;
+    color: #111010;
+  }
+  .top-cards{
+    padding-top: 60px;
+    width: 100%;
+    height: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    background-color: #F1EBE4;
+  }
+  .card-1-h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 33px;
+    text-transform: uppercase;
+    color: #111010;
+  }
+  .top-card-img{
+    width: 280px;
+    height: 350px;
+  }
+  .card-2-h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #111010;
+  }
+  .card-1-p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #111010;
+  }
 }
 
 @media (min-width: 769.1px) and (max-width: 990px) {
@@ -249,8 +389,52 @@ header main .product__down i {
   header main .product__down i {
     font-size: 33px;
   }
-
+  .header-lorem-text {
+    margin-top: 122px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 45px;
+    color: #111010;
+  }
+  .top-cards{
+    padding-top: 60px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    gap: 30px;
+    background-color: #F1EBE4;
+  }
+  .card-1-h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 33px;
+    text-transform: uppercase;
+    color: #111010;
+  }
+  .top-card-img{
+    width: 220px;
+    height: 300px;
+  }
+  .card-2-h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #111010;
+  }
+  .card-1-p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #111010;
+  }
 }
+
 @media (min-width: 990.1px) and (max-width: 1200px) {
   header {
     width: 100%;
@@ -299,5 +483,48 @@ header main .product__down i {
   header main .product__down i {
     font-size: 38px;
   }
-
+  .header-lorem-text {
+    margin-top: 132px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 55px;
+    color: #111010;
+  }
+  .top-cards{
+    padding-top: 60px;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    gap: 30px;
+    background-color: #F1EBE4;
+  }
+  .card-1-h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #111010;
+  }
+  .top-card-img{
+    width: 290px;
+    height: 350px;
+  }
+  .card-2-h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #111010;
+  }
+  .card-1-p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #111010;
+  }
 }
